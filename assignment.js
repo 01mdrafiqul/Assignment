@@ -8,6 +8,7 @@ function kilometerToMeter (kilometer){
     }
 }
 
+
 function budgetCalculator (noOfWatch , noOfPhone , noOflaptop){
     if(noOfWatch < 0 || noOfPhone < 0 || noOflaptop < 0){
         return "No. of item can't be negetive";
@@ -20,6 +21,7 @@ function budgetCalculator (noOfWatch , noOfPhone , noOflaptop){
         return totalBudget;
     }
 }
+
 
 function hotelCost (livingDay){
     if(livingDay < 0){
@@ -40,6 +42,7 @@ function hotelCost (livingDay){
     }
 }
 
+
 function megaFriend(){ 
         var max = friendName[0];
         for(var i = 0 ; i < friendName.length ; i++){
@@ -50,9 +53,3 @@ function megaFriend(){
         }
         return max;
 }
-
-    
-
-    friendName = ["lamfdsffal" , "talbosto" , "trevatson"];
- var a = megaFriend(friendName);
- console.log(a);
